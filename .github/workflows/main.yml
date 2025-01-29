@@ -13,7 +13,7 @@ jobs:
         target:
           - x86_64-unknown-linux-musl       # Linux (musl)
           - aarch64-unknown-linux-musl      # ARM Linux (musl)
-          - x86_64-pc-windows-gnu           # Windows (GNU) See whether it works
+          - x86_64-pc-windows-gnu           # Windows (GNU)
 
     env:
       BINARY_NAME: thingz_to_do
@@ -21,6 +21,16 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Cache Cargo registry and build
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
 
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
@@ -43,19 +53,20 @@ jobs:
         run: |
           mkdir -p release
 
-          if [[ "${{ matrix.target }}" == *"windows"* ]]; then
-            # For Windows (GNU), use proper Bash syntax for variable expansion
-            cp target/${{ matrix.target }}/release/${BINARY_NAME}.exe release/
-            zip -r ${BINARY_NAME}_${{ matrix.target }}.zip release
-          elif [[ "${{ matrix.target }}" == *"darwin"* ]]; then
-            # For macOS targets, tar and gzipped
-            cp target/${{ matrix.target }}/release/${BINARY_NAME} release/
-            tar -czvf ${BINARY_NAME}_${{ matrix.target }}.tar.gz -C release ${BINARY_NAME}
-          else
-            # For Linux targets, tar and gzipped
-            cp target/${{ matrix.target }}/release/${BINARY_NAME} release/
-            tar -czvf ${BINARY_NAME}_${{ matrix.target }}.tar.gz -C release ${BINARY_NAME}
-          fi
+          case "${{ matrix.target }}" in
+            *windows*)
+              cp target/${{ matrix.target }}/release/${BINARY_NAME}.exe release/
+              zip -r ${BINARY_NAME}_${{ matrix.target }}.zip release
+              ;;
+            *darwin*)
+              cp target/${{ matrix.target }}/release/${BINARY_NAME} release/
+              tar -czvf ${BINARY_NAME}_${{ matrix.target }}.tar.gz -C release ${BINARY_NAME}
+              ;;
+            *)
+              cp target/${{ matrix.target }}/release/${BINARY_NAME} release/
+              tar -czvf ${BINARY_NAME}_${{ matrix.target }}.tar.gz -C release ${BINARY_NAME}
+              ;;
+          esac
 
       - name: Upload Release Assets
         uses: softprops/action-gh-release@v2
@@ -65,3 +76,9 @@ jobs:
             *.zip
         env:
           GITHUB_TOKEN: ${{ secrets.TTD }}
+
+      - name: Upload Build Artifacts (Optional)
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts
+          path: target/${{ matrix.target }}/release/

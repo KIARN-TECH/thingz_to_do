@@ -9,6 +9,7 @@ This tool is a personal assistant designed to help you manage your daily activit
 4.	View All Activities: At any time, you can view a list of all your reminders, ensuring you’re always aware of your schedule.
 5.	Easy Interaction: You interact with the assistant through a simple command-line interface where you add, view, or modify reminders with ease.
 ________________________________________
+
 **BENEFITS**
 •	Task Management: Helps people stay organized by setting reminders for personal and professional tasks.
 •	Study Assistant: Students can set reminders for study sessions, assignments, and exam preparations.
@@ -16,6 +17,7 @@ ________________________________________
 •	Work Productivity: Professionals can use it to set reminders for meetings, deadlines, and important tasks.
 •	Customizable: The tool is adaptable to anyone’s schedule, from those with a highly structured day to those with more flexible hours.
 ________________________________________
+
 **Who needs this tool?**
 •	Busy Professionals: People with a packed schedule who need to track meetings, appointments, and deadlines.
 •	Students: Those juggling classes, assignments, exams, and extracurricular activities who need to stay on top of deadlines and study times.
@@ -23,6 +25,7 @@ ________________________________________
 •	Caregivers: Individuals looking after others who need reminders for caregiving tasks or medical appointments.
 •	Anyone with a Goal-Oriented Mindset: Whether you’re trying to learn something new, build a new habit, or just manage your day more effectively, this tool is designed to keep you on track.
 ________________________________________
+
 **How much does it cost?**
 1.	**Free Version:**
 I Offer basic functionality to all users for free, allowing you to add reminders and view the list of activities.
@@ -34,6 +37,7 @@ For advanced features, such as:
 	Reminder Categories: Organize reminders into different categories (e.g., work, health, study).
 	Voice Command Integration: Allow users to add and manage reminders through voice commands (integration with virtual assistants like Alexa, Google Assistant, etc.).
 	**Subscription Plan:**
+
 Access to premium features. 
 1.	Monthly Plan: €4.99/month.
 2.	Yearly Plan: €49.99/year (save 20%).

@@ -64,4 +64,4 @@ jobs:
             *.tar.gz
             *.zip
         env:
-          GITHUB_TOKEN: ${{ secrets.SSA }}
+          GITHUB_TOKEN: ${{ secrets.TTD }}

@@ -70,7 +70,7 @@ fn main() {
             minute: when_minute,
         });
 
-        // Ask user if they want to add more reminders or view them
+        // Ask user if they want to add more reminders or view them.
         println!("Do you have something else you would like to do? (y/n) or view reminders (v)?");
         let mut add_more = String::new();
         std::io::stdin().read_line(&mut add_more).expect("Failed to read input");
@@ -79,7 +79,7 @@ fn main() {
         if add_more == "y" {
             continue; // Continue adding more reminders
         } else if add_more == "v" {
-            // View all added reminders
+            // View all added reminders.
             println!("\nYour reminders:");
             for (index, reminder) in reminders.iter().enumerate() {
                 println!("{}: {} at {:02}:{:02}", index + 1, reminder.activity_name, reminder.hour, reminder.minute);

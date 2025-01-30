@@ -4,7 +4,8 @@
 
 This tool is a personal assistant designed to help you manage your daily activities and reminders with ease. Whether you’re a busy professional, student, or anyone who needs help keeping track of tasks, this tool is here to ensure you never miss an important event, meeting, or personal goal.
 
-### **COMPATIBILITY:**
+> [!NOTE]
+>### **COMPATIBILITY:**
  • WINDOWS
  
  • LINUX
@@ -12,16 +13,17 @@ This tool is a personal assistant designed to help you manage your daily activit
  • MAC OS 
 
 
-## **How is it used?**
+> [!TIP]
+>## **How is it used?**
 
 1.	Add Activities: Simply input `what you need to do`, like "Attend meeting," "Workout," "Catch the Train RB 87," or "Buy groceries."
 2.	Set the Time: Choose the `hour` and `minute` you'd like to be reminded. The tool supports 24-hour format time input.
 3.	Get Reminded: The tool constantly checks the current time and alerts you when it's time to perform your activity.
 4.	View All Activities: At any time, you can view a list of all your reminders, ensuring you’re always aware of your schedule.
 5.	Easy Interaction: You interact with the assistant through a simple command-line interface where you `add(y)`, `view(v)`, or `modify` reminders with ease.
-________________________________________
 
-## **BENEFITS**
+> [!IMPORTANT]
+> ## **BENEFITS**
 
  • Task Management: Helps people stay organized by setting reminders for personal and professional tasks.
  
@@ -32,9 +34,9 @@ ________________________________________
  • Work Productivity: Professionals can use it to set reminders for meetings, deadlines, and important tasks.
  
  • Customizable: The tool is adaptable to anyone’s schedule, from those with a highly structured day to those with more flexible hours.
-________________________________________
 
-## **Who needs this tool?**
+> [!IMPORTANT]
+>## **Who needs this tool?**
 
 •	Students: Those juggling `classes`, `assignments`,`exams`, `work` and `extracurricular activities` who need to stay on top of deadlines and study times.
 
@@ -45,9 +47,9 @@ ________________________________________
 •	Caregivers: Individuals looking after others who need reminders for caregiving tasks or medical appointments.
 
 •	Anyone with a Goal-Oriented Mindset: Whether you’re trying to learn something new, build a new habit, or just manage your day more effectively, this tool is designed to keep you on track.
-________________________________________
 
-## **How much does it cost?**
+> [!IMPORTANT]
+>## **How much does it cost?**
 
 ### **Free Version:**
 
@@ -78,16 +80,22 @@ For users who prefer not to subscribe, we offer a one-time payment option to unl
 4.	Corporate or Group Plans:<sup>€99/year for up to 50 users with premium features. </sup> 
 I offer discounted packages for companies, teams, or educational institutions who wish to provide this tool to their employees or students. 
 5.	Ad-Supported Free Version:<sup>In the free version,There are non-intrusive ads, Users can choose to upgrade to the ad-free premium version. </sup>
-________________________________________
+
+> [!NOTE]
+>### Links to the Repository
+
+Repository - [https://github.com/KIARN-TECH/thingz_to_do.git]
+
+Share website to your colleagues - [https://kiarn-tech.github.io/thingz_to_do/]
 
 
 
 
 
 
+> [!CAUTION]
+> # ***EXPERT SECTION***
 
-
-# ***EXPERT SECTION***
 
 
 
@@ -99,17 +107,20 @@ ________________________________________
 ### Overview
 This is a simple CLI-based Reminder Tool written in Rust. It allows users to schedule reminders by providing an activity name and a specific time. The program then continuously checks the system time and notifies the user when a scheduled reminder is due.
 
-### Features
+> [!NOTE]
+>### Features
 - Accepts user input for reminders (activity name, hour, and minute in 24-hour format).
 - Validates input to prevent invalid or past times.
 - Displays all saved reminders upon request.
 - Checks reminders every minute and notifies the user when it's time.
 
-### Requirements
+> [!CAUTION]
+>### Requirements
 - Rust (latest stable version)
 - `chrono` crate (for time handling)
 
-### Installation
+> [!IMPORTANT]
+>### Installation
 1. Clone this repository:
    ```sh
    git clone https://github.com/yourusername/rust-reminder-tool.git
@@ -124,14 +135,16 @@ This is a simple CLI-based Reminder Tool written in Rust. It allows users to sch
    cargo run
    ```
 
-### Usage
+> [!TIP]
+>### Usage
 1. Enter the activity name when prompted.
 2. Provide the time in 24-hour format (hour and minute separately).
 3. The tool validates your input and saves the reminder.
 4. You can choose to add more reminders, view existing ones, or exit.
 5. The tool continuously checks the time and alerts you when a reminder is due.
 
-### Example Run
+> [!TIP]
+>### Example Run
 ```
 My Assistant
 What do you want to do:
@@ -152,6 +165,10 @@ Your reminders:
 - Implement async scheduling using `tokio`.
 - Save and load reminders from a file.
 - Add sound or visual notifications.
+
+### Links
+
+Repository - [https://github.com/KIARN-TECH/thingz_to_do.git]
 
 ### License
 This project is open-source and available under the MIT License.

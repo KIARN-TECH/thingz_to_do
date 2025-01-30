@@ -4,7 +4,15 @@
 
 This tool is a personal assistant designed to help you manage your daily activities and reminders with ease. Whether you’re a busy professional, student, or anyone who needs help keeping track of tasks, this tool is here to ensure you never miss an important event, meeting, or personal goal.
 
-# **How is it used?**
+### **COMPATIBILITY:**
+ • WINDOWS
+ 
+ • LINUX
+ 
+ • MAC OS 
+
+
+## **How is it used?**
 
 1.	Add Activities: Simply input `what you need to do`, like "Attend meeting," "Workout," "Catch the Train RB 87," or "Buy groceries."
 2.	Set the Time: Choose the `hour` and `minute` you'd like to be reminded. The tool supports 24-hour format time input.
@@ -13,7 +21,7 @@ This tool is a personal assistant designed to help you manage your daily activit
 5.	Easy Interaction: You interact with the assistant through a simple command-line interface where you `add(y)`, `view(v)`, or `modify` reminders with ease.
 ________________________________________
 
-# **BENEFITS**
+## **BENEFITS**
 
  • Task Management: Helps people stay organized by setting reminders for personal and professional tasks.
  
@@ -26,7 +34,7 @@ ________________________________________
  • Customizable: The tool is adaptable to anyone’s schedule, from those with a highly structured day to those with more flexible hours.
 ________________________________________
 
-# **Who needs this tool?**
+## **Who needs this tool?**
 
 •	Students: Those juggling `classes`, `assignments`,`exams`, `work` and `extracurricular activities` who need to stay on top of deadlines and study times.
 
@@ -39,13 +47,13 @@ ________________________________________
 •	Anyone with a Goal-Oriented Mindset: Whether you’re trying to learn something new, build a new habit, or just manage your day more effectively, this tool is designed to keep you on track.
 ________________________________________
 
-# **How much does it cost?**
+## **How much does it cost?**
 
-## **Free Version:**
+### **Free Version:**
 
 I offer basic functionality to all users for free, allowing you to add reminders and view the list of activities.
 
-## **Premium Version:**
+### **Premium Version:**
 
 For advanced features, such as:
 
@@ -59,7 +67,7 @@ For advanced features, such as:
 
 • Voice Command Integration: Allow users to add and manage reminders through `voice commands` (integration with virtual assistants like Alexa, Google Assistant, etc.).
 
-## **Subscription Plan:**
+### **Subscription Plan:**
 
 Access to premium features. 
 
@@ -86,22 +94,22 @@ ________________________________________
 
 
 
-# Thing To Do Tool
+## Thing To Do Tool
 
-## Overview
+### Overview
 This is a simple CLI-based Reminder Tool written in Rust. It allows users to schedule reminders by providing an activity name and a specific time. The program then continuously checks the system time and notifies the user when a scheduled reminder is due.
 
-## Features
+### Features
 - Accepts user input for reminders (activity name, hour, and minute in 24-hour format).
 - Validates input to prevent invalid or past times.
 - Displays all saved reminders upon request.
 - Checks reminders every minute and notifies the user when it's time.
 
-## Requirements
+### Requirements
 - Rust (latest stable version)
 - `chrono` crate (for time handling)
 
-## Installation
+### Installation
 1. Clone this repository:
    ```sh
    git clone https://github.com/yourusername/rust-reminder-tool.git
@@ -116,14 +124,14 @@ This is a simple CLI-based Reminder Tool written in Rust. It allows users to sch
    cargo run
    ```
 
-## Usage
+### Usage
 1. Enter the activity name when prompted.
 2. Provide the time in 24-hour format (hour and minute separately).
 3. The tool validates your input and saves the reminder.
 4. You can choose to add more reminders, view existing ones, or exit.
 5. The tool continuously checks the time and alerts you when a reminder is due.
 
-## Example Run
+### Example Run
 ```
 My Assistant
 What do you want to do:
@@ -140,11 +148,11 @@ Your reminders:
 1: Workout at 18:30
 ```
 
-## Future Improvements
+### Future Improvements
 - Implement async scheduling using `tokio`.
 - Save and load reminders from a file.
 - Add sound or visual notifications.
 
-## License
+### License
 This project is open-source and available under the MIT License.
 

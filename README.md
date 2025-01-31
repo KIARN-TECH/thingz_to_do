@@ -22,6 +22,8 @@ This tool is a personal assistant designed to help you manage your daily activit
 4. **View All Activities:** At any time, you can view a list of all your reminders, ensuring you’re always aware of your schedule.
 5. **Easy Interaction:** Use simple command-line inputs to add `(y)`, view `(v)`, or modify reminders with ease.
 
+> **IMPORTANT:** Ensure your system clock is set correctly to avoid missed reminders.
+
 ---
 
 ## **Benefits**
@@ -32,6 +34,8 @@ This tool is a personal assistant designed to help you manage your daily activit
 - **Work Productivity:** Professionals can use it to track meetings, deadlines, and important tasks.
 - **Customizable:** Adapt the tool to fit any schedule, whether highly structured or flexible.
 
+> **TIP:** Use reminder categories (e.g., work, health, personal) for better organization.
+
 ---
 
 ## **Who Needs This Tool?**
@@ -41,6 +45,8 @@ This tool is a personal assistant designed to help you manage your daily activit
 - **Fitness Enthusiasts:** Maintain health goals with workout and meal reminders.
 - **Caregivers:** Stay on top of caregiving tasks and medical appointments.
 - **Goal-Oriented Individuals:** Build new habits and manage daily activities effectively.
+
+> **NOTE:** This tool is designed to be simple yet effective, making it suitable for all age groups.
 
 ---
 
@@ -71,6 +77,8 @@ Includes advanced features such as:
 | **Corporate/Group Plan** | €99/year *(Up to 50 users with premium features)* |
 | **Ad-Supported Free Version** | Includes non-intrusive ads, with an option to upgrade to the ad-free premium version. |
 
+> **CAUTION:** Prices may be subject to change based on future updates and additional features.
+
 ---
 
 ## **Links to Repository & Website**
@@ -94,6 +102,8 @@ This is a simple **CLI-based Reminder Tool** written in **Rust**. It allows user
 - Displays all saved reminders upon request.
 - Checks reminders every minute and notifies the user when it's time.
 
+> **NOTE:** This tool operates in the background but does not currently support push notifications or sound alerts.
+
 ### **Requirements**
 
 - **Rust** (latest stable version)
@@ -114,6 +124,8 @@ This is a simple **CLI-based Reminder Tool** written in **Rust**. It allows user
    ```sh
    cargo run
    ```
+
+> **CAUTION:** Ensure Rust is properly installed before running the tool to avoid compatibility issues.
 
 ### **Usage**
 
@@ -146,10 +158,12 @@ Your reminders:
 - Save and load reminders from a file.
 - Add sound or visual notifications.
 
+> **IMPORTANT:** Contributions to the project are welcome! Feel free to fork the repository and submit pull requests.
+
 ### **License**
 This project is open-source and available under the **MIT License**.
 
 ---
 
-This version enhances readability with better formatting, sectioning, and markdown elements. Let me know if you’d like any further refinements!
+This version enhances clarity with structured alerts, making it easier for users to navigate key details. Let me know if you'd like any additional refinements!
 

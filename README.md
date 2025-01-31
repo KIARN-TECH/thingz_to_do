@@ -6,6 +6,7 @@ This tool is a personal assistant designed to help you manage your daily activit
 
 > [!NOTE]
 >### **COMPATIBILITY:**
+
  • WINDOWS
  
  • LINUX

@@ -1,131 +1,110 @@
 # **THINGS TO DO**
 
-## **What is this tool?** 
+## **What is this tool?**
 
-This tool is a personal assistant designed to help you manage your daily activities and reminders with ease. Whether you’re a busy professional, student, or anyone who needs help keeping track of tasks, this tool is here to ensure you never miss an important event, meeting, or personal goal.
+This tool is a personal assistant designed to help you manage your daily activities and reminders with ease. Whether you’re a busy professional, student, or anyone who needs help keeping track of tasks, this tool ensures you never miss an important event, meeting, or personal goal.
 
-> [!NOTE]
->### **COMPATIBILITY:**
+---
 
- • WINDOWS
- 
- • LINUX
- 
- • MAC OS 
+> **Compatibility:**
+>
+> - **Windows**
+> - **Linux**
+> - **Mac OS**
 
+---
 
-> [!TIP]
->## **How is it used?**
+## **How is it used?**
 
-1.	Add Activities: Simply input `what you need to do`, like "Attend meeting," "Workout," "Catch the Train RB 87," or "Buy groceries."
-2.	Set the Time: Choose the `hour` and `minute` you'd like to be reminded. The tool supports 24-hour format time input.
-3.	Get Reminded: The tool constantly checks the current time and alerts you when it's time to perform your activity.
-4.	View All Activities: At any time, you can view a list of all your reminders, ensuring you’re always aware of your schedule.
-5.	Easy Interaction: You interact with the assistant through a simple command-line interface where you `add(y)`, `view(v)`, or `modify` reminders with ease.
+1. **Add Activities:** Simply input what you need to do, like *"Attend meeting,"* *"Workout,"* *"Catch the Train RB 87,"* or *"Buy groceries."*
+2. **Set the Time:** Choose the hour and minute you’d like to be reminded. The tool supports 24-hour format time input.
+3. **Get Reminded:** The tool constantly checks the current time and alerts you when it’s time to perform your activity.
+4. **View All Activities:** At any time, you can view a list of all your reminders, ensuring you’re always aware of your schedule.
+5. **Easy Interaction:** Use simple command-line inputs to add `(y)`, view `(v)`, or modify reminders with ease.
 
-> [!IMPORTANT]
-> ## **BENEFITS**
+---
 
- • Task Management: Helps people stay organized by setting reminders for personal and professional tasks.
- 
- • Study Assistant: Students can set reminders for study sessions, assignments, and exam preparations.
- 
- • Health & Fitness: You can set reminders for daily workouts, meal plans, or taking medication.
- 
- • Work Productivity: Professionals can use it to set reminders for meetings, deadlines, and important tasks.
- 
- • Customizable: The tool is adaptable to anyone’s schedule, from those with a highly structured day to those with more flexible hours.
+## **Benefits**
 
-> [!IMPORTANT]
->## **Who needs this tool?**
+- **Task Management:** Stay organized by setting reminders for personal and professional tasks.
+- **Study Assistant:** Students can set reminders for study sessions, assignments, and exam preparations.
+- **Health & Fitness:** Set reminders for workouts, meal plans, or medication schedules.
+- **Work Productivity:** Professionals can use it to track meetings, deadlines, and important tasks.
+- **Customizable:** Adapt the tool to fit any schedule, whether highly structured or flexible.
 
-•	Students: Those juggling `classes`, `assignments`,`exams`, `work` and `extracurricular activities` who need to stay on top of deadlines and study times.
+---
 
-•	Busy Professionals: People with a packed schedule who need to track meetings, appointments, and deadlines.
+## **Who Needs This Tool?**
 
-•	Fitness Enthusiasts: Anyone working on health goals, including reminders for workouts, meals, or medications.
+- **Students:** Manage classes, assignments, exams, and extracurricular activities.
+- **Busy Professionals:** Keep track of meetings, appointments, and deadlines.
+- **Fitness Enthusiasts:** Maintain health goals with workout and meal reminders.
+- **Caregivers:** Stay on top of caregiving tasks and medical appointments.
+- **Goal-Oriented Individuals:** Build new habits and manage daily activities effectively.
 
-•	Caregivers: Individuals looking after others who need reminders for caregiving tasks or medical appointments.
+---
 
-•	Anyone with a Goal-Oriented Mindset: Whether you’re trying to learn something new, build a new habit, or just manage your day more effectively, this tool is designed to keep you on track.
+## **Pricing Plans**
 
-> [!IMPORTANT]
->## **How much does it cost?**
+### **Free Version**
 
-### **Free Version:**
+- Basic functionality: Add and view reminders.
+- Ad-supported experience.
 
-I offer basic functionality to all users for free, allowing you to add reminders and view the list of activities.
+### **Premium Version**
 
-### **Premium Version:**
+Includes advanced features such as:
 
-For advanced features, such as:
+- **Unlimited Reminders:** No limit on reminders.
+- **Customizable Notifications:** Advanced settings (recurring reminders, push notifications, etc.).
+- **Cross-Device Syncing:** Sync reminders across multiple devices.
+- **Reminder Categories:** Organize tasks into categories (work, health, study, etc.).
+- **Voice Command Integration:** Manage reminders using voice assistants like Alexa or Google Assistant.
 
-• Unlimited Reminders: `Remove` any `limitations` on the number of reminders that can be added.
+### **Subscription Plans**
 
-• Customizable Notifications: More `personalized` and `advanced` notification settings (e.g., recurring reminders, push notifications, etc.).
+| Plan | Price |
+|------|------|
+| **Monthly** | €4.99/month |
+| **Yearly** | €49.99/year *(Save 20%)* |
+| **One-Time Purchase** | €29.99 *(Lifetime access to premium features)* |
+| **Corporate/Group Plan** | €99/year *(Up to 50 users with premium features)* |
+| **Ad-Supported Free Version** | Includes non-intrusive ads, with an option to upgrade to the ad-free premium version. |
 
-• Cross-Device Syncing: `Sync` reminders `across` devices and platforms (e.g., mobile, desktop).
+---
 
-•	Reminder Categories: `Organize` reminders into different categories (e.g., work, health, study).
+## **Links to Repository & Website**
 
-• Voice Command Integration: Allow users to add and manage reminders through `voice commands` (integration with virtual assistants like Alexa, Google Assistant, etc.).
+- **GitHub Repository:** [https://github.com/KIARN-TECH/thingz_to_do.git](https://github.com/KIARN-TECH/thingz_to_do.git)
+- **Share with Colleagues:** [https://kiarn-tech.github.io/thingz_to_do/](https://kiarn-tech.github.io/thingz_to_do/)
 
-### **Subscription Plan:**
+---
 
-Access to premium features. 
+## **EXPERT SECTION**
 
-1.	Monthly Plan:<sup>€4.99/month.</sup>
-2.	Yearly Plan: <sup>€49.99/year (save 20%). </sup> 
-3.	One-Time Purchase:<sup>€29.99 for lifetime access to premium features.</sup> 
-For users who prefer not to subscribe, we offer a one-time payment option to unlock the premium version of the tool indefinitely.  
-4.	Corporate or Group Plans:<sup>€99/year for up to 50 users with premium features. </sup> 
-I offer discounted packages for companies, teams, or educational institutions who wish to provide this tool to their employees or students. 
-5.	Ad-Supported Free Version:<sup>In the free version,There are non-intrusive ads, Users can choose to upgrade to the ad-free premium version. </sup>
+### **Thing To Do Tool** *(Technical Overview)*
 
-> [!NOTE]
->### Links to the Repository
+### **Overview**
+This is a simple **CLI-based Reminder Tool** written in **Rust**. It allows users to schedule reminders by providing an activity name and a specific time. The program continuously checks the system time and notifies users when a scheduled reminder is due.
 
-Repository - [https://github.com/KIARN-TECH/thingz_to_do.git]
+### **Features**
 
-Share website to your colleagues - [https://kiarn-tech.github.io/thingz_to_do/]
-
-
-
-
-
-
-> [!CAUTION]
-> # ***EXPERT SECTION***
-
-
-
-
-
-
-
-## Thing To Do Tool
-
-### Overview
-This is a simple CLI-based Reminder Tool written in Rust. It allows users to schedule reminders by providing an activity name and a specific time. The program then continuously checks the system time and notifies the user when a scheduled reminder is due.
-
-> [!NOTE]
->### Features
 - Accepts user input for reminders (activity name, hour, and minute in 24-hour format).
 - Validates input to prevent invalid or past times.
 - Displays all saved reminders upon request.
 - Checks reminders every minute and notifies the user when it's time.
 
-> [!CAUTION]
->### Requirements
-- Rust (latest stable version)
+### **Requirements**
+
+- **Rust** (latest stable version)
 - `chrono` crate (for time handling)
 
-> [!IMPORTANT]
->### Installation
-1. Clone this repository:
+### **Installation**
+
+1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/rust-reminder-tool.git
-   cd rust-reminder-tool
+   git clone https://github.com/KIARN-TECH/thingz_to_do.git
+   cd thingz_to_do
    ```
 2. Install Rust (if not installed):
    ```sh
@@ -136,16 +115,15 @@ This is a simple CLI-based Reminder Tool written in Rust. It allows users to sch
    cargo run
    ```
 
-> [!TIP]
->### Usage
+### **Usage**
+
 1. Enter the activity name when prompted.
 2. Provide the time in 24-hour format (hour and minute separately).
 3. The tool validates your input and saves the reminder.
-4. You can choose to add more reminders, view existing ones, or exit.
+4. Choose to add more reminders, view existing ones, or exit.
 5. The tool continuously checks the time and alerts you when a reminder is due.
 
-> [!TIP]
->### Example Run
+### **Example Run**
 ```
 My Assistant
 What do you want to do:
@@ -162,15 +140,16 @@ Your reminders:
 1: Workout at 18:30
 ```
 
-### Future Improvements
+### **Future Improvements**
+
 - Implement async scheduling using `tokio`.
 - Save and load reminders from a file.
 - Add sound or visual notifications.
 
-### Links
+### **License**
+This project is open-source and available under the **MIT License**.
 
-Repository - [https://github.com/KIARN-TECH/thingz_to_do.git]
+---
 
-### License
-This project is open-source and available under the MIT License.
+This version enhances readability with better formatting, sectioning, and markdown elements. Let me know if you’d like any further refinements!
 
